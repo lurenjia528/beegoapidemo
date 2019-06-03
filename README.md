@@ -1,5 +1,7 @@
 beego api demo
 
+创建表
+
 ```mysql
  CREATE TABLE `student` ( 
        `Id` int(11) NOT NULL, 
@@ -10,6 +12,7 @@ beego api demo
        PRIMARY KEY (`Id`) 
      );
 ```
+创建项目
 
 `bee api beegoapidemo -tables="student" -driver=mysql -conn="root:123123@tcp(127.0.0.1:3306)/test"`
 

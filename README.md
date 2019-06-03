@@ -10,6 +10,9 @@ beego api demo
        PRIMARY KEY (`Id`) 
      );
 ```
+
+`bee api beegoapidemo -tables="student" -driver=mysql -conn="root:123123@tcp(127.0.0.1:3306)/test"`
+
 项目目录下运行 
 ```bash
 bee run  -gendoc=true -downdoc=true
